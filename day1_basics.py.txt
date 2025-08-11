@@ -1,0 +1,61 @@
+# Typy podstawowe
+name = "Matthew"              # string (tekst)
+age = 25                   # integer (liczba całkowita)
+height = 1.80              # float (liczba zmiennoprzecinkowa)
+is_student = True          # boolean (prawda/fałsz)
+weight = 76.4              # float 
+is_employeed = True        # boolean
+
+print(name, age, height, is_student, weight, is_employeed)
+print(type(name), type(age), type(height), type(is_student), type(weight), type(is_employeed))
+
+# Operatory matematyczne
+a = 12
+b = 69
+print("Dodawanie:", a + b)
+print("Odejmowanie:", a - b)
+print("Mnożenie:", a * b)
+print("Dzielenie:", a / b)
+print("Dzielenie całkowite:", a // b)
+print("Reszta z dzielenia:", a % b)
+print("Potęgowanie:", a ** b)
+
+# Operatory porównania
+print("a > b:", a > b)
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a < b:", a < b)
+print("a <= b:", a <= b)
+
+
+# Lista zakupów
+shopping_list = ["mleko", "chleb", "jajka"]
+print("Początkowa lista:", shopping_list)
+
+# Dodawanie elementu
+shopping_list.append("ser")
+print("Po dodaniu sera:", shopping_list)
+
+# Usuwanie elementu
+shopping_list.remove("chleb")
+print("Po usunięciu chleba:", shopping_list)
+
+# Dostęp do elementów
+print("Pierwszy element:", shopping_list[0])
+print("Ostatni element:", shopping_list[-1])
+
+# Zmiana elementu
+shopping_list[1] = "masło"
+print("Po zmianie:", shopping_list)
+
+# dodawanie kolejnych elementów
+shopping_list.append("bułki")
+shopping_list.append("kebab")
+print("Po dodaniu kolejnych składników:", shopping_list)
+
+# Usuwanie elementów
+shopping_list.pop()
+print("po odjęciu skladnikow:", shopping_list)
+
+# podliczanie 
+len(shopping_list)
